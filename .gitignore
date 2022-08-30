@@ -1,0 +1,53 @@
+.DS_Store
+.idea
+.vscode
+.workspace
+.workspace*
+__pycache__
+db.sqlite3
+stats.json
+Pipfile
+Pipfile.lock
+
+# npm files
+node_modules
+yarn-error.log
+
+# support-libraries
+supports/
+accutuning_helpers/*
+accutuning_modeler/tpot/*
+accutuning_modeler/auto-sklearn/*
+autosklearn/
+tpot/
+tpot
+
+# py-test files, test output
+.coverage
+.test
+.pytest_cache
+htmlcov/
+**/tests/output/**
+cov.xml
+
+# temporary
+accutuning_toy
+accutuning_state
+accutuning_modules/labeler-fsl/fsl/*
+
+# build output
+accutuning/accutuning/static/
+accutuning_frontend/build/
+
+# python venv
+bin/
+include/
+lib/
+share/
+pyvenv.cfg
+accutuning_helpers/
+
+# airflow
+accutuning/airflow/logs/
+.airflow
+.airflow*
